@@ -9,9 +9,11 @@ class AnimalsController < ApplicationController
 
 	def new
 		@animal = Animal.new
+		@species = Species.all
   end
 
-  def create
+	def create
+		byebug
 	end
 	
 	def home
