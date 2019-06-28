@@ -12,5 +12,8 @@ class AnimalsController < ApplicationController
   end
 
   def create
-  end
+	end
+	
+	def home
+	end
 end
