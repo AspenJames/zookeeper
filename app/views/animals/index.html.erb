@@ -1,2 +1,22 @@
-<h1>Animals#index</h1>
-<p>Find me in app/views/animals/index.html.erb</p>
+<h1>These are your animals!</h1>
+
+<table class='table'>
+	<tr>
+		<th>Id</th>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Species</th>
+		<th>Profile</th>
+	</tr>
+
+	<% @animals.each do |animal| %>
+		<tr>
+			<td><%= animal.id %></td>
+			<td><%= animal.name %></td>
+			<td><%= animal.age %></td>
+			<td><%= animal.species.name %></td>
+			<td><a href=<%= "/animals/#{animal.id}" %>>Show me</a></td>
+		</tr>
+	<% end %>
+
+</table>
