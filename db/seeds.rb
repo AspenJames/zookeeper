@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+species = %w(glowworm puffin platypus)
+
+species.each{ |s| Species.create(name: s) }
+
+animals = %w(Georgia Wilfred Frederick Patty Susan TayZonday Carlton)
+
+animals.each do |a|
+	Animal.create(
+		name: a,
+		age: (rand * 25).ceil,
+		species: Species.all.sample
+	)
+end
