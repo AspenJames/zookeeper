@@ -31,8 +31,15 @@ function main() {
 			// 	addAnimal(json[i]);
 			// }
 
-			for (i in json) {
-				addAnimal(json[i])
+			for (obj of json) {
+				// let animal = new Animal(
+				// 	obj.id,
+				// 	obj.name,
+				// 	obj.age,
+				// 	obj.species.name
+				// );
+				let animal = new Animal(obj)
+				animal.addToTable();
 			}
 		})
 
