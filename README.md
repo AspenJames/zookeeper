@@ -1,24 +1,20 @@
-# README
+# July 5, 2019
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## SWBAT
 
-Things you may want to cover:
+* [ ] Review using fetch
+* [ ] Introduce the Rails Asset Pipeline
+* [ ] Use JavaScript to control forms
+* [ ] Validate form input using JavaScript
+* [ ] Intro to JavaScript Classes
+* [ ] Refactor pages to use JS Class
 
-* Ruby version
+## Process
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [ ] Review application
+* [ ] Refactor form to use JS
+* [ ] Create JS Animal class, use to render index
+* [ ] Talk about how JS files are loaded
+* [ ] Introduce precompiled assets
+* [ ] Separate Animal class and animals.js file
+* [ ] Use Animal class to render show page information
